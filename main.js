@@ -2,8 +2,9 @@ import "./style.css";
 import javascriptLogo from "./javascript.svg";
 import viteLogo from "/vite.svg";
 import {
-  enviromentComponent,
   callbacksComponent,
+  enviromentComponent,
+  promiseRaceComponent,
   promisesComponent,
 } from "./src/concepts/index";
 
@@ -26,4 +27,5 @@ const element = document.querySelector(".card");
 
 //enviromentComponent(element);
 //callbacksComponent(element);
-promisesComponent(element);
+//promisesComponent(element);
+promiseRaceComponent(element);
