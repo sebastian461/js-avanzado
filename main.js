@@ -9,6 +9,7 @@ import {
   enviromentComponent,
   promiseRaceComponent,
   promisesComponent,
+  forAwaitComponent,
 } from "./src/concepts/index";
 
 document.querySelector("#app").innerHTML = `
@@ -34,4 +35,5 @@ const element = document.querySelector(".card");
 //promiseRaceComponent(element);
 //asyncComponent(element);
 //asyncAwaitComponent(element);
-asyncAwaitOptiComponent(element);
+//asyncAwaitOptiComponent(element);
+forAwaitComponent(element);
