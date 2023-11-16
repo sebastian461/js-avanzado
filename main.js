@@ -3,6 +3,7 @@ import javascriptLogo from "./javascript.svg";
 import viteLogo from "/vite.svg";
 import {
   asyncAwaitComponent,
+  asyncAwaitOptiComponent,
   asyncComponent,
   callbacksComponent,
   enviromentComponent,
@@ -32,4 +33,5 @@ const element = document.querySelector(".card");
 //promisesComponent(element);
 //promiseRaceComponent(element);
 //asyncComponent(element);
-asyncAwaitComponent(element);
+//asyncAwaitComponent(element);
+asyncAwaitOptiComponent(element);
