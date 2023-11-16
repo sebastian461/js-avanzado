@@ -2,6 +2,7 @@ import "./style.css";
 import javascriptLogo from "./javascript.svg";
 import viteLogo from "/vite.svg";
 import {
+  asyncAwaitComponent,
   asyncComponent,
   callbacksComponent,
   enviromentComponent,
@@ -30,4 +31,5 @@ const element = document.querySelector(".card");
 //callbacksComponent(element);
 //promisesComponent(element);
 //promiseRaceComponent(element);
-asyncComponent(element);
+//asyncComponent(element);
+asyncAwaitComponent(element);
