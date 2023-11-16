@@ -14,12 +14,14 @@ export const asyncComponent = (element) => {
 };
 
 /**
- * Esta es la manera de definir una función asincrona
+ * Esta es la manera de definir una función asíncrona
  * que devuelve una promesa en lugar del objeto
  * @param {String} id
  * @returns {Promise}
  */
 const findHero = async (id) => {
   const heroe = heroes.find((h) => h.id === id);
+  /* Dentro de una función asíncrona, el 'return' equivale a un 'resolve' y throw a un 'reject' */
+  if (!heroe) throw `Heroe with id ${id} not found`;
   return heroe;
 };
