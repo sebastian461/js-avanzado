@@ -2,7 +2,6 @@ import { heroes } from "../data/heroes";
 
 /**
  * Para poder usar 'await' se debe definir la función que lo envuelve como un método asíncrono
- * y también a la función a la que se apunta
  * @param {HTMLDivElement} element
  */
 export const asyncAwaitComponent = async (element) => {

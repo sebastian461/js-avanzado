@@ -5,6 +5,7 @@ import {
   asyncAwaitComponent,
   asyncAwaitOptiComponent,
   asyncComponent,
+  ayncGeneratorComponent,
   callbacksComponent,
   enviromentComponent,
   forAwaitComponent,
@@ -38,4 +39,5 @@ const element = document.querySelector(".card");
 //asyncAwaitComponent(element);
 //asyncAwaitOptiComponent(element);
 //forAwaitComponent(element);
-generatorFunctionsComponent(element);
+//generatorFunctionsComponent(element);
+ayncGeneratorComponent(element);
