@@ -13,6 +13,11 @@ import {
   promiseRaceComponent,
   promisesComponent,
 } from "./src/concepts/index";
+import {
+  arrayToMethods,
+  arrayWith,
+  functionStructuredClone,
+} from "./src/esNext";
 
 document.querySelector("#app").innerHTML = `
   <div>
@@ -40,4 +45,7 @@ const element = document.querySelector(".card");
 //asyncAwaitOptiComponent(element);
 //forAwaitComponent(element);
 //generatorFunctionsComponent(element);
-ayncGeneratorComponent(element);
+//ayncGeneratorComponent(element);
+//functionStructuredClone();
+//arrayWith();
+arrayToMethods();
