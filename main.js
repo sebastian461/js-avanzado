@@ -13,7 +13,11 @@ import {
   promiseRaceComponent,
   promisesComponent,
 } from "./src/concepts/index";
-import { functionStructuredClone, arrayWith } from "./src/esNext";
+import {
+  arrayToMethods,
+  arrayWith,
+  functionStructuredClone,
+} from "./src/esNext";
 
 document.querySelector("#app").innerHTML = `
   <div>
@@ -43,4 +47,5 @@ const element = document.querySelector(".card");
 //generatorFunctionsComponent(element);
 //ayncGeneratorComponent(element);
 //functionStructuredClone();
-arrayWith();
+//arrayWith();
+arrayToMethods();
